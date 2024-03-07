@@ -58,7 +58,7 @@ function Header() {
               textDecoration: "none",
             }}
           >
-            <div className="w-36 h-full">
+            <div className="w-36 p-2 h-full">
               <Link to={"/"}>
                 <img
                   src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709819749/csi/uwmdhwkpunbabkatohsf.png"
@@ -125,7 +125,7 @@ function Header() {
           >
             <div className="w-36 h-full">
               <img
-                src="https://res.cloudinary.com/dfhj4i9hd/image/upload/v1708503607/CSI%20Website/f1d6gk5mr0rkt6dse04q.png"
+                src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709819749/csi/uwmdhwkpunbabkatohsf.png"
                 alt=""
               />
             </div>
@@ -136,36 +136,6 @@ function Header() {
                 <Typography textAlign="center">{page}</Typography>
               </MenuItem>
             ))}
-          </Box>
-
-          <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-              </IconButton>
-            </Tooltip>
-            <Menu
-              sx={{ mt: "45px" }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
           </Box>
         </Toolbar>
       </Container>
