@@ -1,10 +1,10 @@
 import React from "react";
 
-const Sponser = () => {
+const Sponsor = () => {
   return (
     <div className="mt-10 flex justify-center flex-col items-center">
       <div className="  bg-gradient-to-r from-violet-800 to-indigo-300 bg-clip-text text-transparent relative">
-        OUR SPONSERS
+        OUR SPONSORS
         {/* <div className="absolute inset-x-10 sm:inset-x-20 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" /> */}
         {/* <div className="absolute inset-x-10 sm:inset-x-20 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" /> */}
         <div className="absolute bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-full blur-sm mt-2" />
@@ -35,4 +35,4 @@ const Sponser = () => {
   );
 };
 
-export default Sponser;
+export default Sponsor;
