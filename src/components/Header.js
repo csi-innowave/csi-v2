@@ -10,7 +10,7 @@ import Avatar from "@mui/material/Avatar";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import GlassAppBar from "./ui/GlassAppBar";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const pages = ["Team", "Brochure", "Events", "Gallery", "About"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
@@ -59,10 +59,12 @@ function Header() {
             }}
           >
             <div className="w-36 h-full">
-              <img
-                src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709819749/csi/uwmdhwkpunbabkatohsf.png"
-                alt=""
-              />
+              <Link to={"/"}>
+                <img
+                  src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709819749/csi/uwmdhwkpunbabkatohsf.png"
+                  alt=""
+                />
+              </Link>
             </div>
           </Typography>
 
