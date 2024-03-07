@@ -10,7 +10,7 @@ import MenuItem from "@mui/material/MenuItem";
 import GlassAppBar from "./ui/GlassAppBar";
 import { Link, useNavigate } from "react-router-dom";
 import Button from "@mui/material/Button";
-const pages = ["Team", "Brochure", "Events", "Gallery", "About"];
+const pages = ["Brochure", "Team", "Events", "Gallery", "About"];
 
 function Header() {
   const navigate = useNavigate();

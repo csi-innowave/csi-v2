@@ -14,8 +14,8 @@ export const InfiniteMovingCards = ({
     shortDescription: string;
     title: string;
     date: string;
-    id:string;
-    posterLink:string;
+    id: string;
+    posterLink: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -105,14 +105,14 @@ export const InfiniteMovingCards = ({
                 <img src={item.posterLink} className="rounded-xl" alt="" />
               </div>
               <p className=" text-sm leading-[1.6] mt-3  font-bold bg-gradient-to-r from-violet-800 to-indigo-400 bg-clip-text text-transparent">
-                    {item.title}
-                  </p>
-          
+                {item.title}
+              </p>
+
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <p className="flex flex-col gap-1">
-                <p className=" relative z-20 text-sm  text-gray-100 font-normal">
-                {item.shortDescription}
-              </p>
+                  <p className=" relative z-20 text-sm  text-gray-100 font-normal">
+                    {item.shortDescription}
+                  </p>
                   <span className=" text-sm leading-[1.6] text-gray-100 font-normal">
                     {item.date}
                   </span>

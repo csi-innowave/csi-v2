@@ -8,6 +8,7 @@ import Gallery from "./components/Gallery/Gallery";
 import About from "./components/AboutPage/About";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Events from "./components/Events/Events";
 const AppLayout = () => {
   return (
     <>
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/Gallery",
         element: <Gallery />,
+      },
+      {
+        path: "/Events",
+        element: <Events />,
       },
       {
         path: "/team",

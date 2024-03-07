@@ -9,19 +9,19 @@ const Footer = () => {
             href="https://www.linkedin.com/company/csi-innowave/"
             className="cursor-pointer"
           >
-            <FaLinkedin size={30} />
+            <FaLinkedin size={30} color="white" />
           </a>
           <a
             href="https://www.instagram.com/mait_csi_innowave/"
             className="cursor-pointer"
           >
-            <FaInstagram size={30} />
+            <FaInstagram size={30} color="white" />
           </a>
           <a
             href="https://www.youtube.com/@CSI-Innowave"
             className="cursor-pointer"
           >
-            <FaYoutube size={30} />
+            <FaYoutube size={30} color="white" />
           </a>
         </div>
       </div>
