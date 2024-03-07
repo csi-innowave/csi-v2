@@ -1,6 +1,6 @@
 "use client";
 
-import { Link } from "@mui/material";
+import { Link } from "react-router-dom";
 import { cn } from "../../utils/cn.ts";
 import React, { useEffect, useState } from "react";
 
@@ -97,31 +97,34 @@ export const InfiniteMovingCards = ({
             }}
             key={item.id}
           >
-            <blockquote className=" overflow-hidden">
-              {/* <div 
+            {" "}
+            <Link to={`/events/${item.id}`}>
+              <blockquote className=" overflow-hidden">
+                {/* <div 
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none  absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div> */}
-              <Link to={"/events/:id"}>
+
                 <div className="">
                   <img src={item.posterLink} className="rounded-xl " alt="" />
                 </div>
-              </Link>
-              <p className=" text-[25px] leading-[1.6] mt-3  font-bold bg-gradient-to-r from-violet-800 to-indigo-400 bg-clip-text text-transparent">
-                {item.title}
-              </p>
 
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                <p className="flex flex-col gap-1">
-                  <p className=" relative z-20 text-sm  text-gray-100 font-normal">
-                    {item.shortDescription}
-                  </p>
-                  <span className=" text-sm leading-[1.6] text-gray-100 font-normal">
-                    {item.date}
-                  </span>
+                <p className=" text-[25px] leading-[1.6] mt-3  font-bold bg-gradient-to-r from-violet-800 to-indigo-400 bg-clip-text text-transparent">
+                  {item.title}
                 </p>
-              </div>
-            </blockquote>
+
+                <div className="relative z-20 mt-6 flex flex-row items-center">
+                  <p className="flex flex-col gap-1">
+                    <p className=" relative z-20 text-sm  text-gray-100 font-normal">
+                      {item.shortDescription}
+                    </p>
+                    <span className=" text-sm leading-[1.6] text-gray-100 font-normal">
+                      {item.date}
+                    </span>
+                  </p>
+                </div>
+              </blockquote>
+            </Link>
           </li>
         ))}
       </ul>

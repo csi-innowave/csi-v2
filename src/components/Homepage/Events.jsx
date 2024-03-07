@@ -15,7 +15,7 @@ export default function InfiniteMovingCardsDemo() {
         {/* <div className="absolute inset-x-16 sm:inset-x-38  bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" /> */}
       </div>
       <div className="h-1/4 mt-10 rounded-md flex flex-col   items-center justify-center relative overflow-hidden">
-        <InfiniteMovingCards items={eventData} direction="right" speed="slow" />
+        <InfiniteMovingCards items={eventData} direction="left" speed="slow" />
       </div>
     </>
   );
