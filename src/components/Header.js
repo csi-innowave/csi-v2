@@ -10,14 +10,13 @@ import MenuItem from "@mui/material/MenuItem";
 import GlassAppBar from "./ui/GlassAppBar";
 import { Link, useNavigate } from "react-router-dom";
 import Button from "@mui/material/Button";
-const pages = ["Brochure", "Team", "Events", "Gallery", "About"];
+const pages = ["Team", "Events", "Gallery", "About"];
 
 function Header() {
   const navigate = useNavigate();
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleNavigation = (page) => {
-    console.log(page);
     navigate(`${page}`);
   };
   const handleOpenNavMenu = (event) => {
@@ -34,21 +33,7 @@ function Header() {
       <Container maxWidth="xl" className="">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-            sx={{
-              mr: 2,
-              display: { xs: "none", md: "flex" },
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          >
+          <div className="hidden md:flex">
             <div className="w-36 p-2 h-full">
               <Link to={"/"}>
                 <img
@@ -57,8 +42,15 @@ function Header() {
                 />
               </Link>
             </div>
-          </Typography>
-
+            <Link
+              to={
+                "https://drive.google.com/file/d/1GVeWn4GE9DQkwQOEhKW10tApuoYgsR3U/view"
+              }
+              className="bg-white px-2 py-1 my-auto rounded-lg font-bold hover:bg-gray-200 text-black "
+            >
+              BROCHURE
+            </Link>
+          </div>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
@@ -113,23 +105,33 @@ function Header() {
             href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
-              display: { xs: "flex", md: "none" },
+              display: { sm: "flex", md: "none" },
               flexGrow: 1,
               fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
+              fontWeight: 300,
+
               color: "inherit",
               textDecoration: "none",
             }}
           >
-            <Link to={"/"}>
-              <div className="w-36 h-full">
-                <img
-                  src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709819749/csi/uwmdhwkpunbabkatohsf.png"
-                  alt=""
-                />
-              </div>
-            </Link>
+            <div className="flex">
+              <Link to={"/"}>
+                <div className="w-36 h-full">
+                  <img
+                    src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709819749/csi/uwmdhwkpunbabkatohsf.png"
+                    alt=""
+                  />
+                </div>
+              </Link>
+              <Link
+                to={
+                  "https://drive.google.com/file/d/1GVeWn4GE9DQkwQOEhKW10tApuoYgsR3U/view"
+                }
+                className="bg-white px-2 py-1 my-auto rounded-lg font-bold hover:bg-gray-200 text-black "
+              >
+                BROCHURE
+              </Link>
+            </div>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
