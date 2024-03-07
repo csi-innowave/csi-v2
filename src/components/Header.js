@@ -6,11 +6,10 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import GlassAppBar from "./ui/GlassAppBar";
 import { Link, useNavigate } from "react-router-dom";
+import Button from "@mui/material/Button";
 const pages = ["Team", "Brochure", "Events", "Gallery", "About"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
@@ -18,7 +17,7 @@ function Header() {
   const navigate = useNavigate();
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-  const handlePageNavigate = (page) => {
+  const handleNavigation = (page) => {
     console.log(page);
     navigate(`${page}`);
   };
@@ -97,17 +96,21 @@ function Header() {
                 display: { xs: "block", md: "none" },
               }}
             >
-                <div className="font-bold">
-             {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu} >
-                  <Button 
-                   sx={{ color: 'black'}}
-                  onClick={()=>{
-                    handleNavigation(page)
-                  }} textAlign="center" >{page}</Button>
-                </MenuItem>
-              ))}
-             </div>
+              <div className="font-bold">
+                {pages.map((page) => (
+                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                    <Button
+                      sx={{ color: "black" }}
+                      onClick={() => {
+                        handleNavigation(page);
+                      }}
+                      textAlign="center"
+                    >
+                      {page}
+                    </Button>
+                  </MenuItem>
+                ))}
+              </div>
             </Menu>
           </Box>
           {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
@@ -134,18 +137,18 @@ function Header() {
               />
             </div>
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-          {pages.map((page) => (
-                 <Button
-                 key={page}
-                 onClick={()=>{
-                  handleNavigation(page)
-                 }}
-                 sx={{ my: 2, color: 'white', display: 'block' }}
-               >
-                 {page}
-               </Button>
-              ))}
+          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+            {pages.map((page) => (
+              <Button
+                key={page}
+                onClick={() => {
+                  handleNavigation(page);
+                }}
+                sx={{ my: 2, color: "white", display: "block" }}
+              >
+                {page}
+              </Button>
+            ))}
           </Box>
         </Toolbar>
       </Container>
