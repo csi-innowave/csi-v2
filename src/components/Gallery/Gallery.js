@@ -1,5 +1,5 @@
 import React from "react";
-import ImagesSliderDemo from "../components/Homepage/ImgSlider";
+import ImagesSliderDemo from "../Homepage/ImgSlider";
 import galleryData from "./GalleryData";
 import { motion } from "framer-motion";
 const Gallery = () => {
@@ -18,8 +18,8 @@ const Gallery = () => {
     },
   };
   return (
-    <div className="overflow-y-scroll">
-      <div className="sm:h-[60rem] h-screen z-50 w-full   dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex py-16 sm:py-10   justify-center">
+    <div className="pt-10">
+      <div className="sm:h-[60rem] h-screen z-50 w-full   dark:bg-grid-white/[0.2] bg-grid-black/[0.2]  flex py-16 sm:py-10   justify-center">
         <div className="absolute pointer-events-none inset-0 flex justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <div className="text-4xl sm:text-7xl w-10/12  ">
           <div className="font-bold  relative z-20 bg-clip-text mb-5 text-transparent text-center bg-gradient-to-r from-blue-600 to-indigo-200 ">
@@ -33,7 +33,7 @@ const Gallery = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <section className="text-center py-5">
-              <h1 className="text-white text-5xl font-adam font-bold">
+              <h1 className="font-bold  relative z-20 bg-clip-text mb-5 text-transparent text-center bg-gradient-to-r from-blue-600 to-indigo-200">
                 Photos
               </h1>
               <p className="text-white"></p>

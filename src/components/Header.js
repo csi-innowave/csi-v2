@@ -11,12 +11,11 @@ import GlassAppBar from "./ui/GlassAppBar";
 import { Link, useNavigate } from "react-router-dom";
 import Button from "@mui/material/Button";
 const pages = ["Team", "Brochure", "Events", "Gallery", "About"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function Header() {
   const navigate = useNavigate();
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+
   const handleNavigation = (page) => {
     console.log(page);
     navigate(`${page}`);
@@ -24,17 +23,10 @@ function Header() {
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
 
   const handleCloseNavMenu = (page) => {
     // handlePageNavigate(page);
     setAnchorElNav(null);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
   };
 
   return (
@@ -130,12 +122,14 @@ function Header() {
               textDecoration: "none",
             }}
           >
-            <div className="w-36 h-full">
-              <img
-                src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709819749/csi/uwmdhwkpunbabkatohsf.png"
-                alt=""
-              />
-            </div>
+            <Link to={"/"}>
+              <div className="w-36 h-full">
+                <img
+                  src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709819749/csi/uwmdhwkpunbabkatohsf.png"
+                  alt=""
+                />
+              </div>
+            </Link>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (

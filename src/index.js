@@ -4,15 +4,20 @@ import "./index.css";
 import Home from "./components/Home";
 import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
 import Team from "./components/TeamPage/Team";
-import Gallery from "./components/Gallery";
+import Gallery from "./components/Gallery/Gallery";
 import About from "./components/AboutPage/About";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 const AppLayout = () => {
   return (
-    <div>
-      <Header />
-      <Outlet />
-    </div>
+    <>
+      <div>
+        <Header />
+        <Outlet />
+
+        {/* <Footer /> */}
+      </div>
+    </>
   );
 };
 const router = createBrowserRouter([
