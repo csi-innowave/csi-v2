@@ -9,6 +9,7 @@ import About from "./components/AboutPage/About";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Events from "./components/Events/Events";
+import EventInDetail from "./components/Events/EventInDetail";
 const AppLayout = () => {
   return (
     <>
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: "/team",
         element: <Team />,
+      },
+      {
+        path: "/events/:id",
+        element: <EventInDetail />,
       },
     ],
   },

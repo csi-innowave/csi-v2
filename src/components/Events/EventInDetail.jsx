@@ -20,7 +20,7 @@ const EventInDetail = () => {
 
   return (
     <motion.div
-      className="bg-white text-black m-10 flex flex-col md:flex-row justify-center text-center rounded-lg overflow-hidden "
+      className="bg-white text-black my-24 mx-10 flex flex-col md:flex-row justify-center text-center rounded-lg overflow-hidden "
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}

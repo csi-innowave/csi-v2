@@ -1,5 +1,6 @@
 "use client";
 
+import { Link } from "@mui/material";
 import { cn } from "../../utils/cn.ts";
 import React, { useEffect, useState } from "react";
 
@@ -87,7 +88,7 @@ export const InfiniteMovingCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((item, idx) => (
+        {items.map((item, id) => (
           <li
             className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px]"
             style={{
@@ -101,10 +102,12 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none  absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div> */}
-              <div className="">
-                <img src={item.posterLink} className="rounded-xl" alt="" />
-              </div>
-              <p className=" text-sm leading-[1.6] mt-3  font-bold bg-gradient-to-r from-violet-800 to-indigo-400 bg-clip-text text-transparent">
+              <Link to={"/events/:id"}>
+                <div className="">
+                  <img src={item.posterLink} className="rounded-xl " alt="" />
+                </div>
+              </Link>
+              <p className=" text-[25px] leading-[1.6] mt-3  font-bold bg-gradient-to-r from-violet-800 to-indigo-400 bg-clip-text text-transparent">
                 {item.title}
               </p>
 
