@@ -30,7 +30,7 @@ function Header() {
   };
 
   const handleCloseNavMenu = (page) => {
-    handlePageNavigate(page);
+    // handlePageNavigate(page);
     setAnchorElNav(null);
   };
 
@@ -97,13 +97,17 @@ function Header() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              <div className="font-bold">
-                {pages.map((page) => (
-                  <MenuItem key={page} onClick={() => handleCloseNavMenu(page)}>
-                    <Typography textAlign="center">{page}</Typography>
-                  </MenuItem>
-                ))}
-              </div>
+                <div className="font-bold">
+             {pages.map((page) => (
+                <MenuItem key={page} onClick={handleCloseNavMenu} >
+                  <Button 
+                   sx={{ color: 'black'}}
+                  onClick={()=>{
+                    handleNavigation(page)
+                  }} textAlign="center" >{page}</Button>
+                </MenuItem>
+              ))}
+             </div>
             </Menu>
           </Box>
           {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
@@ -130,12 +134,18 @@ function Header() {
               />
             </div>
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
-              <MenuItem key={page} onClick={() => handleCloseNavMenu(page)}>
-                <Typography textAlign="center">{page}</Typography>
-              </MenuItem>
-            ))}
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          {pages.map((page) => (
+                 <Button
+                 key={page}
+                 onClick={()=>{
+                  handleNavigation(page)
+                 }}
+                 sx={{ my: 2, color: 'white', display: 'block' }}
+               >
+                 {page}
+               </Button>
+              ))}
           </Box>
         </Toolbar>
       </Container>
