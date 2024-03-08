@@ -62,12 +62,12 @@ const Gallery = () => {
                   >
                     <div
                       key={image.title}
-                      className="bg-white p-1 shadow-md rounded-sm m-2 h-96"
+                      className="lg:bg-white lg:p-1 lg:shadow-md lg:m-2 lg:h-80 rounded-sm bg-transparent p-0 shadow-none"
                     >
                       <img
                         src={image.imageLink}
                         alt={image.title}
-                        className="w-full h-full  mb-4 rounded-md object-contain"
+                        className="w-full h-full  mb-4 rounded-md object-contain block"
                       />
                     </div>
                   </motion.div>
