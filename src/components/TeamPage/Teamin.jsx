@@ -82,7 +82,9 @@ const Teamin = () => {
                     <p className="text-white font-adam font-bold text-2xl">
                       Prof. Neelam Sharma
                     </p>
-                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl  pb-2">Patron</p>
+                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl  pb-2">
+                      Patron
+                    </p>
                   </div>
                 </motion.div>
               </div>
@@ -102,7 +104,9 @@ const Teamin = () => {
                     <p className="text-white font-adam font-bold text-2xl">
                       Prof. S.S. Deswal
                     </p>
-                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2 ">Patron</p>
+                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2 ">
+                      Patron
+                    </p>
                   </div>
                 </motion.div>
               </div>
@@ -122,7 +126,9 @@ const Teamin = () => {
                     <p className="text-white font-adam font-bold text-2xl">
                       Prof. Sachin Gupta
                     </p>
-                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">Patron</p>
+                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">
+                      Patron
+                    </p>
                   </div>
                 </motion.div>
               </div>
@@ -174,7 +180,9 @@ const Teamin = () => {
                     <p className="text-white  font-bold text-2xl">
                       KPA Dharmanshu Mahajan
                     </p>
-                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">Advisor</p>
+                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">
+                      Advisor
+                    </p>
                   </div>
                 </motion.div>
               </div>
@@ -193,7 +201,9 @@ const Teamin = () => {
                     <p className="text-white font-adam font-bold text-2xl">
                       Saksham Jain
                     </p>
-                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">Chairperson</p>
+                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">
+                      Chairperson
+                    </p>
                   </div>
                 </motion.div>
               </div>
@@ -235,7 +245,9 @@ const Teamin = () => {
                     <p className="text-white font-adam font-bold text-2xl">
                       Yash Gupta
                     </p>
-                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">Technical Head</p>
+                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">
+                      Technical Head
+                    </p>
                   </div>
                 </motion.div>
               </div>
@@ -255,7 +267,9 @@ const Teamin = () => {
                     <p className="text-white  font-bold text-2xl">
                       Saksham Agarwal
                     </p>
-                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">Content Head</p>
+                    <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">
+                      Content Head
+                    </p>
                   </div>
                 </motion.div>
               </div>
@@ -338,6 +352,7 @@ const Teamin = () => {
               <p className="text-white">Joyal Jijo</p>
               <p className="text-white">Vrishank Sharma</p>
               <p className="text-white">Devesh Tuteja</p>
+              <p className="text-white">Prajjwal Sharma</p>
             </div>
           </div>
         </section>
@@ -408,7 +423,9 @@ const Teamin = () => {
         <section>
           <div className="text-center  mx-10 lg:mx-0">
             <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-transparent">
-              <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 font-bold text-4xl">Coordinators</h2>
+              <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 font-bold text-4xl">
+                Coordinators
+              </h2>
               <p className="text-white">Parth Goel</p>
 
               <p className="text-white">Radhika Garg</p>
