@@ -51,7 +51,13 @@ function Header() {
               BROCHURE
             </Link>
           </div>
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "flex", md: "none" },
+              flexShrink: 0,
+            }}
+          >
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -98,22 +104,7 @@ function Header() {
             </Menu>
           </Box>
           {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-            sx={{
-              mr: 2,
-              display: { sm: "flex", md: "none" },
-              flexGrow: 1,
-              fontFamily: "monospace",
-              fontWeight: 300,
-
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          >
+          <div className="flex md:hidden">
             <div className="flex">
               <Link to={"/"}>
                 <div className="w-36 h-full">
@@ -132,7 +123,7 @@ function Header() {
                 BROCHURE
               </Link>
             </div>
-          </Typography>
+          </div>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button
