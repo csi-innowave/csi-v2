@@ -105,7 +105,7 @@ function Header() {
           </Box>
           {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
           <div className="flex md:hidden">
-            <div className="flex">
+            <div className="flex mr-96">
               <Link to={"/"}>
                 <div className="w-36 h-full">
                   <img
