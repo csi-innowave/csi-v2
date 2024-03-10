@@ -23,9 +23,9 @@ const Sponsor = () => {
           {" "}
           MetaSpace
         </span>
-        , a leading decentralized metaverse platform, offers diverse experiences
-        like gaming, events, and shopping, pushing the boundaries of virtual
-        reality. As a sponsor of{" "}
+        is a leading decentralized metaverse platform, offers diverse
+        experiences like gaming, events, and shopping, pushing the boundaries of
+        virtual reality. As a sponsor of{" "}
         <span className="bg-gradient-to-r from-violet-800 to-indigo-400 bg-clip-text text-transparent">
           CSI-INNOWAVE
         </span>
