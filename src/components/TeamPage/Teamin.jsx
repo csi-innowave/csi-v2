@@ -375,7 +375,6 @@ const Teamin = () => {
               <p className="text-white">Ravi Kumar</p>
               <p className="text-white">Nalin Khanna </p>
               <p className="text-white">Vansh Maheshwari </p>
-              <p className="text-white">Pratham Tyagi</p>
             </div>
           </div>
         </section>
@@ -385,8 +384,7 @@ const Teamin = () => {
               <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300  font-bold text-4xl mb-1">
                 Photography Executives
               </h2>
-              <p className="text-white">Manik gulati</p>
-              <p className="text-white">Mayank sharma</p>
+              <p className="text-white">Ujjawal Gupta</p>
             </div>
           </div>
         </section>
@@ -413,10 +411,11 @@ const Teamin = () => {
               </h2>
               <p className="text-white">Sarthak Rawat</p>
               <p className="text-white">Aryan Dutta</p>
-              <p className="text-white">Yash Phalaswal</p>
+              <p className="text-white">Yash </p>
               <p className="text-white">Ashish Jain</p>
               <p className="text-white">Jitendra Kumar Singh</p>
               <p className="text-white">Itisha</p>
+              <p className="text-white">Vanisha Bhatia</p>
             </div>
           </div>
         </section>
