@@ -433,8 +433,9 @@ const Teamin = () => {
               <p className="text-white">Komal</p>
               <p className="text-white">Vishank Bhardwaj</p>
               <p className="text-white">Parthsaarthie Sharma</p>
-
               <p className="text-white">Ayush Verma</p>
+              <p className="text-white">Srirup Kar</p>
+              <p className="text-white">Vidit Kaushik</p>
             </div>
           </div>
         </section>
