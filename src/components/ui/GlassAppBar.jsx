@@ -1,4 +1,4 @@
-import { styled, AppBar, Container, Toolbar } from '@mui/material';
+import { styled, AppBar } from '@mui/material';
 
 const GlassAppBar = styled(AppBar)(({ theme }) => ({
   backgroundColor: 'rgba(100,100,100, 0.1)', // Semi-transparent white background
