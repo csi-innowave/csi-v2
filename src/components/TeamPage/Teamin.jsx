@@ -66,19 +66,18 @@ const Teamin = () => {
           transition={{ duration: 0.5, delay: 0.8 }}
         >
           <section className="flex justify-center items-center">
-            <div
-                className="flex flex-col mx-10 mb-10 md:grid lg:grid-cols-5 md:grid-cols-3 gap-10 font-semibold font-adam">
+            <div className="flex flex-col mx-10 mb-10 md:grid lg:grid-cols-5 md:grid-cols-3 gap-10 font-semibold font-adam">
               <div className="text-center">
                 <motion.div
-                    className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card rounded-md w-full bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131248/csi/team/llgn4s6xwckilkumschq.png"
-                        alt="Prof. Neelam Sharma"
-                        className="card-image mx-auto w-[367.5px] p-2 "
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131248/csi/team/llgn4s6xwckilkumschq.png"
+                      alt="Prof. Neelam Sharma"
+                      className="card-image mx-auto w-[367.5px] p-2 "
                     />
                     <p className="text-white font-adam font-bold text-xl">
                       Prof. Neelam Sharma
@@ -92,15 +91,15 @@ const Teamin = () => {
 
               <div className="text-center">
                 <motion.div
-                    className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card rounded-md font-adam bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131288/csi/team/ov4sqvmtmkqejhvyufag.png"
-                        alt="SS deshwal"
-                        className="card-image w-[367.5px] p-2 mx-auto rounded-full"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131288/csi/team/ov4sqvmtmkqejhvyufag.png"
+                      alt="SS deshwal"
+                      className="card-image w-[367.5px] p-2 mx-auto rounded-full"
                     />
                     <p className="text-white font-adam font-bold text-xl">
                       Prof. S.S. Deswal
@@ -114,15 +113,15 @@ const Teamin = () => {
 
               <div className="text-center">
                 <motion.div
-                    className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card rounded-md font-adam bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131324/csi/team/bttwzako6b0qhvhm2xmi.jpg"
-                        alt="Sachin Gupta"
-                        className="card-image p-2 rounded-full mx-auto w-[367.5px]"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131324/csi/team/bttwzako6b0qhvhm2xmi.jpg"
+                      alt="Sachin Gupta"
+                      className="card-image p-2 rounded-full mx-auto w-[367.5px]"
                     />
                     <p className="text-white font-adam font-bold text-xl">
                       Prof. Sachin Gupta
@@ -135,15 +134,15 @@ const Teamin = () => {
               </div>
               <div className="text-center">
                 <motion.div
-                    className="card  rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card  rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card font-adam rounded-md bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131324/csi/team/zbnwrkews8ahtnavdjcj.jpg"
-                        alt="Vinay Kumar Saini "
-                        className="card-image mx-auto rounded-full p-2"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131324/csi/team/zbnwrkews8ahtnavdjcj.jpg"
+                      alt="Vinay Kumar Saini "
+                      className="card-image mx-auto rounded-full p-2"
                     />
                     <p className="text-white  font-bold text-xl">
                       Dr.Vinay Kumar Saini
@@ -156,17 +155,17 @@ const Teamin = () => {
               </div>
               <div className="text-center">
                 <motion.div
-                    className="card  rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card  rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card font-adam rounded-md bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dfhj4i9hd/image/upload/v1713107597/CSI%20Website/Team/WhatsApp_Image_2024-04-14_at_19.35.00_mfxbdn.jpg"
-                        alt="Bhaskar Kapoor"
-                        className="card-image mx-auto rounded-full p-2"
-                        //hardcoded max height value kyuki image ki size bhut alag thi or ajeeb lag rhi thi
-                        style={{ maxHeight: '14.5rem' }}
+                      src="https://res.cloudinary.com/dfhj4i9hd/image/upload/v1713107597/CSI%20Website/Team/WhatsApp_Image_2024-04-14_at_19.35.00_mfxbdn.jpg"
+                      alt="Bhaskar Kapoor"
+                      className="card-image mx-auto rounded-full p-2"
+                      //hardcoded max height value kyuki image ki size bhut alag thi or ajeeb lag rhi thi
+                      style={{ maxHeight: "14.5rem" }}
                     />
                     <p className="text-white  font-bold text-xl">
                       Prof. Bhaskar Kapoor
@@ -182,25 +181,24 @@ const Teamin = () => {
         </motion.section>
 
         <motion.section
-            className="flex justify-center items-center"
-            initial={{opacity: 0, y: 50}}
-            animate={{opacity: 1, y: 0}}
-            transition={{duration: 0.5, delay: 0.8}}
+          className="flex justify-center items-center"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.8 }}
         >
           <section className="flex justify-center items-center">
-            <div
-                className="flex flex-col mb-10 mx-10 md:grid lg:grid-cols-5 md:grid-cols-2 gap-10 font-semibold font-adam">
+            <div className="flex flex-col mb-10 mx-10 md:grid lg:grid-cols-5 md:grid-cols-2 gap-10 font-semibold font-adam">
               <div className="text-center">
                 <motion.div
-                    className="card w-[72%] md:w-full mx-auto rounded-md bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card w-[72%] md:w-full mx-auto rounded-md bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card font-adam rounded-md bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131377/csi/team/xw4vm473raaflklhkv06.png"
-                        alt="kpa"
-                        className="card-image p-2"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131377/csi/team/xw4vm473raaflklhkv06.png"
+                      alt="kpa"
+                      className="card-image p-2"
                     />
                     <p className="text-white  font-bold text-xl">
                       KPA Dharmanshu Mahajan
@@ -213,15 +211,15 @@ const Teamin = () => {
               </div>
               <div className="text-center">
                 <motion.div
-                    className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card rounded-md font-adam bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dfhj4i9hd/image/upload/v1713109491/CSI%20Website/Team/fotor-2024041421141_wp1xgy.png"
-                        alt="Asmi Goyal"
-                        className="card-image p-2"
+                      src="https://res.cloudinary.com/dfhj4i9hd/image/upload/v1713109491/CSI%20Website/Team/fotor-2024041421141_wp1xgy.png"
+                      alt="Asmi Goyal"
+                      className="card-image p-2"
                     />
                     <p className="text-white font-adam font-bold text-xl">
                       Asmi Goyal
@@ -234,15 +232,15 @@ const Teamin = () => {
               </div>
               <div className="text-center">
                 <motion.div
-                    className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card rounded-md bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131504/csi/team/ao0whsaz8j8hlb0bmxcz.png"
-                        alt="Saksham Jain"
-                        className="card-image p-2"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131504/csi/team/ao0whsaz8j8hlb0bmxcz.png"
+                      alt="Saksham Jain"
+                      className="card-image p-2"
                     />
                     <p className="text-white font-adam font-bold text-xl">
                       Saksham Jain
@@ -256,15 +254,15 @@ const Teamin = () => {
 
               <div className="text-center">
                 <motion.div
-                    className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card rounded-md font-adam bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131505/csi/team/v85vjbwy280setlpvtip.png"
-                        alt="Vidhi Jain"
-                        className="card-image p-2"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131505/csi/team/v85vjbwy280setlpvtip.png"
+                      alt="Vidhi Jain"
+                      className="card-image p-2"
                     />
                     <p className="text-white font-adam font-bold text-xl">
                       Vidhi Jain
@@ -278,15 +276,15 @@ const Teamin = () => {
 
               <div className="text-center">
                 <motion.div
-                    className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card rounded-md font-adam bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131609/csi/team/rauaq8effx32t1iuca18.png"
-                        alt="Yash Gupta"
-                        className="card-image p-2"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131609/csi/team/rauaq8effx32t1iuca18.png"
+                      alt="Yash Gupta"
+                      className="card-image p-2"
                     />
                     <p className="text-white font-adam font-bold text-xl">
                       Yash Gupta
@@ -300,15 +298,15 @@ const Teamin = () => {
 
               <div className="text-center">
                 <motion.div
-                    className="card  rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card  rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card font-adam rounded-md bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131423/csi/team/vwzturjx6lqdkeczki2f.png"
-                        alt="Saksham Agarwal"
-                        className="card-image p-2"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131423/csi/team/vwzturjx6lqdkeczki2f.png"
+                      alt="Saksham Agarwal"
+                      className="card-image p-2"
                     />
                     <p className="text-white  font-bold text-xl">
                       Saksham Agarwal
@@ -322,21 +320,19 @@ const Teamin = () => {
 
               <div className="text-center">
                 <motion.div
-                    className="card rounded-md w-[72%] md:w-full mx-auto font-adam bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card rounded-md w-[72%] md:w-full mx-auto font-adam bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card font-adam rounded-md bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131434/csi/team/vo0arwv8tqqebihmdira.png"
-                        alt="Aryan Goyal"
-                        className="card-image p-2"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131434/csi/team/vo0arwv8tqqebihmdira.png"
+                      alt="Aryan Goyal"
+                      className="card-image p-2"
                     />
-                    <p className="text-white  font-bold text-xl">
-                      Aryan Goyal
-                    </p>
+                    <p className="text-white  font-bold text-xl">Aryan Goyal</p>
                     <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">
-                      Public Relations Head
+                      Sponsorship Head
                     </p>
                   </div>
                 </motion.div>
@@ -344,19 +340,17 @@ const Teamin = () => {
 
               <div className="text-center">
                 <motion.div
-                    className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card font-adam rounded-md bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131503/csi/team/t5ijtuofzna2cetpz5kx.png"
-                        alt="Vibhor Gupta"
-                        className="card-image p-2"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131503/csi/team/t5ijtuofzna2cetpz5kx.png"
+                      alt="Vibhor Gupta"
+                      className="card-image p-2"
                     />
-                    <p className="text-white font-bold text-xl">
-                      Vibhor Gupta
-                    </p>
+                    <p className="text-white font-bold text-xl">Vibhor Gupta</p>
                     <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">
                       Event Management Head
                     </p>
@@ -366,15 +360,15 @@ const Teamin = () => {
 
               <div className="text-center">
                 <motion.div
-                    className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card font-adam rounded-md bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131503/csi/team/mdszyypnnldwxwnnezhf.png"
-                        alt="Varun Gautam"
-                        className="card-image p-2"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131503/csi/team/mdszyypnnldwxwnnezhf.png"
+                      alt="Varun Gautam"
+                      className="card-image p-2"
                     />
                     <p className="text-white  font-bold text-xl">
                       Varun Gautam
@@ -387,21 +381,19 @@ const Teamin = () => {
               </div>
               <div className="text-center">
                 <motion.div
-                    className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
-                    variants={variants}
-                    whileHover="hover"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-transparent"
+                  variants={variants}
+                  whileHover="hover"
                 >
                   <div className="card font-adam rounded-md bg-transparent">
                     <img
-                        src="https://res.cloudinary.com/dfhj4i9hd/image/upload/v1713110808/CSI%20Website/Team/WhatsApp_Image_2024-04-14_at_20.03.21-fotor-20240414213629_ilpzvo.png"
-                        alt="Ansh Malik"
-                        className="card-image p-2"
+                      src="https://res.cloudinary.com/dfhj4i9hd/image/upload/v1713110808/CSI%20Website/Team/WhatsApp_Image_2024-04-14_at_20.03.21-fotor-20240414213629_ilpzvo.png"
+                      alt="Ansh Malik"
+                      className="card-image p-2"
                     />
-                    <p className="text-white  font-bold text-xl">
-                      Ansh Malik
-                    </p>
+                    <p className="text-white  font-bold text-xl">Ansh Malik</p>
                     <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 text-xl pb-2">
-                      PR Head
+                      Public Relations Head
                     </p>
                   </div>
                 </motion.div>
@@ -434,14 +426,25 @@ const Teamin = () => {
               <p className="text-white">MD Azam Siddiqui</p>
 
               <p className="text-white">Moksh Gupta</p>
-              <p className="text-white">Tanishq Sethi</p>
+
               <p className="text-white">Dhruv Goel</p>
               <p className="text-white">Anshika Chaubey</p>
               <p className="text-white">Mukund Aggarwal</p>
               <p className="text-white">Mridul </p>
-              <p className="text-white">Ravi Kumar</p>
-              <p className="text-white">Nalin Khanna </p>
+
               <p className="text-white">Vansh Maheshwari </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="text-center  mx-10 lg:mx-0 font-adam">
+            <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-transparent p-1">
+              <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-indigo-300 font-bold text-4xl mb-1">
+                Sponsorship Executives
+              </h2>
+              <p className="text-white">Nalin Khanna </p>
+              <p className="text-white">Tanishq Sethi</p>
+              <p className="text-white">Ravi Kumar</p>
             </div>
           </div>
         </section>
