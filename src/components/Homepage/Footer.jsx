@@ -12,7 +12,7 @@ const Footer = () => {
           </p>
           <div className="w-44 mt-10 md:mt-0 my-auto md:pt-0">
             <a
-              href="mailto:csiinnowave@gmail.com"
+              href="mailto:contact@cshiinnowave.com"
               className="bg-red-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center cursor-pointer"
             >
               Contact Us
