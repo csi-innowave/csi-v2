@@ -18,7 +18,7 @@ const AppLayout = () => {
       <div >
         {/* banner ad */}
         {ban ? (
-          <div className="flex w-full sm:mt-28 mt-32 absolute z-50">
+          <div className="flex w-full sm:mt-28 mt-24 fixed z-50">
             <button>
               <div className="flex justify-center  relative">
                 <button
