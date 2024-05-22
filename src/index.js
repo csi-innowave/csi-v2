@@ -18,48 +18,49 @@ const AppLayout = () => {
   return (
     <>
       <div >
-        {/* banner ad */}
-        {ban ? (
-          <div className="flex w-full sm:mt-28 mt-24 fixed z-50">
-            <button
-            onClick={() => {
-              setban(false);
-            }}
-            >
-              <div className="flex justify-center  relative">
-                <button
-                  className="absolute z-50 text-right sm:w-8/12 w-11/12 p-4 text-white"
-                  onClick={() => {
-                    setban(false);
-                  }}
-                >
-                  {" "}
-                  <div className=" ">
-                    <CloseIcon fontSize="large" />
-                  </div>
-                </button>
-                <Link
-                  to={"/events/12"}
-                  className="sm:w-8/12 w-11/12"
-                  
-                >
-                  <img
-                    className=" border-4 rounded-3xl sm:block hidden shadow-2xl border-white"
-                    src="https://res.cloudinary.com/dzkldv06d/image/upload/v1713277189/1_1_r4rcko.png"
-                    alt=""
-                  />
-                  <img
-                    className=" border-4 rounded-3xl sm:hidden block shadow-2xl border-white"
-                    src="https://res.cloudinary.com/dzkldv06d/image/upload/v1713287370/Untitled_design_5_gedbxl.png"
-                    alt=""
-                  />
-                </Link>
-              </div>
-            </button>
-          </div>
-        ) : (
-          ""
-        )}
+        {/*THIS IS THE CODE FOR CREATING ANY POP UP IN THE WEBSITE*/}
+        {/*/!* banner ad *!/*/}
+        {/*{ban ? (*/}
+        {/*  <div className="flex w-full sm:mt-28 mt-24 fixed z-50">*/}
+        {/*    <button*/}
+        {/*    onClick={() => {*/}
+        {/*      setban(false);*/}
+        {/*    }}*/}
+        {/*    >*/}
+        {/*      <div className="flex justify-center  relative">*/}
+        {/*        <button*/}
+        {/*          className="absolute z-50 text-right sm:w-8/12 w-11/12 p-4 text-white"*/}
+        {/*          onClick={() => {*/}
+        {/*            setban(false);*/}
+        {/*          }}*/}
+        {/*        >*/}
+        {/*          {" "}*/}
+        {/*          <div className=" ">*/}
+        {/*            <CloseIcon fontSize="large" />*/}
+        {/*          </div>*/}
+        {/*        </button>*/}
+        {/*        <Link*/}
+        {/*          to={"/events/12"}*/}
+        {/*          className="sm:w-8/12 w-11/12"*/}
+        {/*          */}
+        {/*        >*/}
+        {/*          <img*/}
+        {/*            className=" border-4 rounded-3xl sm:block hidden shadow-2xl border-white"*/}
+        {/*            src="https://res.cloudinary.com/dzkldv06d/image/upload/v1713277189/1_1_r4rcko.png"*/}
+        {/*            alt=""*/}
+        {/*          />*/}
+        {/*          <img*/}
+        {/*            className=" border-4 rounded-3xl sm:hidden block shadow-2xl border-white"*/}
+        {/*            src="https://res.cloudinary.com/dzkldv06d/image/upload/v1713287370/Untitled_design_5_gedbxl.png"*/}
+        {/*            alt=""*/}
+        {/*          />*/}
+        {/*        </Link>*/}
+        {/*      </div>*/}
+        {/*    </button>*/}
+        {/*  </div>*/}
+        {/*) : (*/}
+        {/*  ""*/}
+        {/*)}*/}
         <Header />
         <Outlet />
         <Footer />
